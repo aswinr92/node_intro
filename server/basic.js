@@ -8,7 +8,7 @@ http.createServer(function(req,res){
         fs.createReadStream(__dirname+'/file.txt').pipe(res);
     }
     else{
-        res.end('Hello');
+        res.end('Hello World');
     }
 }).listen(8080);
 
